@@ -1,0 +1,34 @@
+package p3;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class ObjectRepositoryReader {
+   public static void main(String[] args) {
+	  Properties prop = new Properties();
+	  FileInputStream input = null;
+	  
+	  try {
+		  input = new FileInputStream("D:\\java\\app_java_4\\src\\p3\\objectrepository.properties");
+		  prop.load(input);
+	  } catch(Exception ex) {
+		  ex.printStackTrace();
+	  } finally {
+		  if(input!=null) {
+			  try {
+				  input.close();
+			  } catch(IOException e) {
+				  e.printStackTrace();
+			  }
+		  }
+	  }
+	  
+	  //Accessing Properties
+	  String name = prop.getProperty("name");
+	  String age = prop.getProperty("age");
+	  
+	  System.out.println("Property1: " + name);
+	  System.out.println("Property2: " + age);
+   }
+}

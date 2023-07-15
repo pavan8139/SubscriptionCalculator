@@ -1,0 +1,54 @@
+Sure, here's an example test case for the Home page elements of the AOC Jobs portal covering positive and negative scenarios:
+
+Test case: Home page elements test
+
+Objective: To verify the functionality and usability of the home page elements of AOC Jobs portal.
+
+Preconditions:
+
+A device with internet connectivity is required.
+Open a web browser and access the AOC Jobs portal via URL: https://www.aocjobs.com/.
+Test Steps:
+
+Screen validation
+Positive scenario:
+Verify that the home page is loaded successfully without any errors or warning messages.
+Check that the home page design and layout are consistent and visually appealing.
+Verify that all images, icons, and graphics are displaying properly.
+Negative scenario:
+
+Verify that the home page is not loaded or inaccessible due to a technical issue or internet connectivity problem.
+Check that there are no broken links or missing images on the home page.
+Navigations
+Positive scenario:
+Click on the "Search Jobs" button and verify that the user is redirected to the Job search page.
+Click on the "Sign in" button and verify that the user is redirected to the login page.
+Click on the "Register" button and verify that the user is redirected to the registration page.
+Negative scenario:
+
+Click on any broken link or invalid URL on the home page and verify that the user is displayed an error message.
+********
+Usability conditions
+Positive scenario:
+Check that the home page is user-friendly and easy to navigate.
+Verify that the home page is responsive and adapts to different screen sizes and resolutions.
+
+Negative scenario:
+
+Check that the home page is not cluttered or confusing for the users.
+Verify that there are no usability issues such as slow loading time, excessive pop-ups, or broken buttons.
+*********
+Search jobs
+Positive scenario:
+Enter a valid job title or keyword in the search bar and verify that relevant job listings are displayed.
+Apply various filters such as location, job type, salary, and experience level, and verify that the job listings are updated accordingly.
+Negative scenario:
+
+Enter an invalid or misspelled job title or keyword in the search bar and verify that the no results are displayed.
+Apply an invalid or non-existent filter and verify that no job listings are displayed.
+Expected results:
+
+All the positive scenarios should pass successfully without any errors or issues.
+All the negative scenarios should fail and display appropriate error messages or no results.
+Conclusion:
+This test case covers the major home page elements of the AOC Jobs portal, including screen validation, navigations, usability conditions, and job search functionality. By executing these test cases, we can ensure that the home page is functioning correctly and is user-friendly for the users.
