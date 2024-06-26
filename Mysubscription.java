@@ -14,7 +14,7 @@ public class SalesforceLogin {
    	    
    	    if(usernameField!= null && passwordField!= null)
    	    {
-   	    	System.out.println("Username and passworf fields found");
+   	    	System.out.println("Username and password fields found");
    	    }
    	    usernameField.sendKeys("Pavan@gmail.com");
    	    passwordField.sendKeys("testing123$");
